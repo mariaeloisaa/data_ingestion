@@ -3,10 +3,10 @@ from pydantic import BaseModel as SCBaseModel
 
 class WilsonSchema(SCBaseModel):
     id: Optional[int] = None
-    nome = str
-    especialidade = str
-    foto = str
-    poder = str
+    nome: str
+    especialidade: str
+    foto: str
+    poder: str
     
 
 class Config:
